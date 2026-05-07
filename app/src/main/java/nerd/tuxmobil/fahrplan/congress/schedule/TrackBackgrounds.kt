@@ -51,6 +51,18 @@ object TrackBackgrounds {
         return map.orEmpty()
     }
 
+    // Converts a raw value from track_resource_names.xml into a valid Android resource name
+    // suffix: lowercase, German umlauts to their ASCII digraphs, any remaining characters
+    // that are invalid in a resource identifier ([^a-z0-9_]) collapsed to a single underscore.
+    private fun String?.toResourceNameSuffix() = orEmpty()
+        .lowercase()
+        .replace("ä", "ae")
+        .replace("ö", "oe")
+        .replace("ü", "ue")
+        .replace("ß", "ss")
+        .replace(Regex("[^a-z0-9_]+"), "_")
+        .trim('_')
+
     @SuppressLint("DiscouragedApi")
     private fun buildTrackBackgroundHashMap(
         trackNamesMap: Map<String?, String?>,
@@ -63,7 +75,7 @@ object TrackBackgrounds {
         // key can have the value: ""
         // See track_resource_names.xml
         if (!it.key.isNullOrEmpty()) {
-            name += "_${it.value?.replace(' ', '_')}"
+            name += "_${it.value.toResourceNameSuffix()}"
         }
         context.resources.getIdentifier(name, resourceType, context.packageName)
     }.filter { it.value != 0 }
