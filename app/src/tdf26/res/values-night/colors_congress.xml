@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default state -->
+    <color name="track_background_default">#8078A0</color>
+    <color name="track_background_default_meal">#d19200</color>
+    <color name="track_background_default_art_beauty">#1979ff</color>
+    <color name="track_background_default_ethics_politics_society">#CC576A</color>
+    <color name="track_background_default_hardware_code">#81799F</color>
+    <color name="track_background_default_digital_literacy">#7db348</color>
+    <color name="track_background_default_diversity">#ce5ce6</color>
+    <color name="track_background_default_sustainability_climate_justice">#00a150</color>
+    <color name="track_background_default_science">#2496b3</color>
+    <color name="track_background_default_community_meetup">#ff5533</color>
+    <color name="track_background_default_orga">#8F7970</color>
+    <color name="track_background_default_other">#8078A0</color>
+    <color name="track_background_default_service">#8F7970</color>
+    <!-- Highlight state -->
+    <color name="track_background_highlight">#8078A0</color>
+    <color name="track_background_highlight_meal">#d19200</color>
+    <color name="track_background_highlight_art_beauty">#1979ff</color>
+    <color name="track_background_highlight_ethics_politics_society">#CC576A</color>
+    <color name="track_background_highlight_hardware_code">#81799F</color>
+    <color name="track_background_highlight_digital_literacy">#7db348</color>
+    <color name="track_background_highlight_diversity">#ce5ce6</color>
+    <color name="track_background_highlight_sustainability_climate_justice">#00a150</color>
+    <color name="track_background_highlight_science">#2496b3</color>
+    <color name="track_background_highlight_community_meetup">#ff5533</color>
+    <color name="track_background_highlight_orga">#8F7970</color>
+    <color name="track_background_highlight_other">#8078A0</color>
+    <color name="track_background_highlight_service">#8F7970</color>
+</resources>

@@ -12,4 +12,14 @@
     <entry key="Talk">talk</entry>
     <entry key="Workshop">workshop</entry>
     <entry key="">other</entry>
+    <entry key="Meal">meal</entry>
+    <entry key="Creativity and Beauty">art_beauty</entry>
+    <entry key="Ethics, Politics and Society">ethics_politics_society</entry>
+    <entry key="Hardware and Code">hardware_code</entry>
+    <entry key="Digital Literacy and Empowerment">digital_literacy</entry>
+    <entry key="Diversity and Awareness">diversity</entry>
+    <entry key="Sustainability and Climate Justice">sustainability_climate_justice</entry>
+    <entry key="Science">science</entry>
+    <entry key="Community Meetups">community_meetup</entry>
+    <entry key="Orga- und Elfen-Meetings">orga</entry>
 </map>

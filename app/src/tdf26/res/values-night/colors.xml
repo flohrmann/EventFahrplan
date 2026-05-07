@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="text_primary">#faf5f5</color>
+    <color name="text_secondary">#d6f3d8</color>
+    <color name="text_tertiary">#b3afaf</color>
+    <color name="colorPrimary">#141414</color>
+    <color name="colorPrimaryDark">#141414</color>
+    <color name="colorAccent">#7761cd</color>
+    <color name="background_primary">#141414</color>
+    <color name="multi_choice_background">#141414</color>
+
+    <!-- Schedule screen -->
+    <color name="schedule_horizontal_time_line">#4dffffff</color>
+    <color name="schedule_room_name_header_text">#f0fff1</color>
+
+    <!-- Session details -->
+    <color name="session_detailbar_background">#2E2E2E</color>
+
+</resources>

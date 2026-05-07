@@ -14,9 +14,7 @@
     <string name="placeholder_session_subtitle">
         Discussion of recent research, live demonstration of techniques
     </string>
-    <string name="placeholder_session_track">
-        Security &amp; Safety
-    </string>
+    <string name="placeholder_session_track">"         Security &amp; Safety     "</string>
     <string name="placeholder_session_abstract">
         In this talk (which in part was delivered at Infiltrate 2013 and NoSuchCon
         2013) we will discuss our recent research that is being rolled into our

@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+
+    <!-- Default state: fani tdf colours-->
+    <color name="meal">#808080</color>
+    <color name="art_beauty">#1C96A6</color>
+    <color name="ethics_politics_society">#CC576A</color>
+    <color name="hardware_code">#81799F</color>
+    <color name="digital_literacy">#3481CC</color>
+    <color name="diversity">#CCA121</color>
+    <color name="sustainability_climate_justice">#40879E</color>
+    <color name="science">#338D63</color>
+    <color name="community_meetup">#DBA904</color>
+    <color name="orga">#8F7970</color>
+
+
     <!-- Default state -->
     <color name="track_background_default">#808080</color>
     <color name="track_background_default_all_about_computers">#1C96A6</color>
     <color name="track_background_default_all_creatures_welcome">#1993D0</color>
-    <color name="track_background_default_antifaschimus">#218FC2</color>
+    <color name="track_background_default_antifaschismus">#218FC2</color>
     <color name="track_background_default_art_beauty">#A87600</color>
     <color name="track_background_default_bits_baeume">#88B039</color>
     <color name="track_background_default_ccc">#82821F</color>
