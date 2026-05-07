@@ -63,10 +63,10 @@ object TrackBackgrounds {
         // key can have the value: ""
         // See track_resource_names.xml
         if (!it.key.isNullOrEmpty()) {
-            name += "_${it.value}"
+            name += "_${it.value?.replace(' ', '_')}"
         }
         context.resources.getIdentifier(name, resourceType, context.packageName)
-    }
+    }.filter { it.value != 0 }
 
     fun getTrackNameBackgroundColorDefaultPairs(context: Context) = buildTrackBackgroundHashMap(
         getHashMapResource(context, R.xml.track_resource_names),
