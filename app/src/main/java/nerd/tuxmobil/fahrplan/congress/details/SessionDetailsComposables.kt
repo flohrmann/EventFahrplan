@@ -247,7 +247,7 @@ fun SessionDetails(
                     Modifier.padding(top = dimensionResource(R.dimen.session_details_extra_space_above_section_header)),
                     onClick = { onViewEvent(OnSessionLinkClick(it)) },
                 )
-                Identifiers(this@with, Modifier.padding(top = dimensionResource(R.dimen.session_details_extra_space_above_section_header)))
+                //Identifiers(this@with, Modifier.padding(top = dimensionResource(R.dimen.session_details_extra_space_above_section_header)))
             }
         }
     }
@@ -595,7 +595,7 @@ private fun SessionLink(
     }
 }
 
-@Composable
+/*@Composable
 private fun Identifiers(
     sessionDetails: SessionDetails,
     modifier: Modifier = Modifier,
@@ -613,7 +613,7 @@ private fun Identifiers(
             text = sessionDetails.id.value.uppercase(),
         )
     }
-}
+}*/
 
 @Composable
 private fun TextLeadingIcon(

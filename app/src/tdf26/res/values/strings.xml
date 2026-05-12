@@ -3,6 +3,6 @@
     <string name="app_name">TDF26 Schedule</string>
     <string name="app_hardcoded_subtitle" translatable="false">15.-17.5.2026, Westspitze Tübingen</string>
     <string name="conference_name" translatable="false">TDF26</string>
-    <string name="copyright_logo" translatable="false">Designed by Martin and Kathrin</string>
+    <string name="copyright_logo" translatable="false">Poster and Design by Martin and Kathrin</string>
     <string name="about_logo_content_description" translatable="false">TDF26 Freiräume Verschlüsseln</string>
 </resources>

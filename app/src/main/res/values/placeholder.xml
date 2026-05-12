@@ -15,17 +15,7 @@
         Discussion of recent research, live demonstration of techniques
     </string>
     <string name="placeholder_session_track">"         Security &amp; Safety     "</string>
-    <string name="placeholder_session_abstract">
-        In this talk (which in part was delivered at Infiltrate 2013 and NoSuchCon
-        2013) we will discuss our recent research that is being rolled into our
-        Practical ARM Exploitation course (sold out at Blackhat this year and last)
-        on Linux and Android (for embedded applications and mobile devices). We
-        will also demonstrate these techniques and discuss how we were able to
-        discover them using several ARM hardware development platforms that we
-        custom built.  Where relevant we will also discuss ARM exploitation as
-        it related to Android as we wrote about in the "Android Hackers Handbook"
-        which we co-authored and will be released in October 2013.
-    </string>
+    <string name="placeholder_session_abstract">"         In this talk (which in part was delivered at Infiltrate 2013 and NoSuchCon         2013) we will discuss our recent research that is being rolled into our         Practical ARM Exploitation course (sold out at Blackhat this year and last)         on Linux and Android (for embedded applications and mobile devices). We         will also demonstrate these techniques and discuss how we were able to         discover them using several ARM hardware development platforms that we         custom built.  Where relevant we will also discuss ARM exploitation as         it related to Android as we wrote about in the Android Hackers Handbook         which we co-authored and will be released in October 2013.     "</string>
     <string name="placeholder_session_description">
         Lastly, we will also discuss some of our most recent related hardware
         research (to facilitate the above) which will include bus protocol
